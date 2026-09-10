@@ -399,6 +399,8 @@ def process_findings_dir(findings_dir):
         "redirects": "redirect",
         "idor": "idor",
         "auth_bypass": "auth_bypass",
+        "cors": "cors",
+        "info_disclosure": "info_disclosure",
     }
 
     total_reports = 0
